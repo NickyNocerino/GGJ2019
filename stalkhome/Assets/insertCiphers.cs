@@ -31,7 +31,7 @@ public class insertCiphers : MonoBehaviour
             newObj = (GameObject)Instantiate(prefab, transform);
 
             // Randomize the color of our image
-            newObj.GetComponent<Text>().text = cipher[i] + " =  ";
+            newObj.GetComponent<Text>().text = cipher[i] ;
         }
 
     }
