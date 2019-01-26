@@ -1,19 +1,20 @@
 fileFormatVersion: 2
-guid: bceb11030e3b942d4b447294cd9d8fea
+guid: 982dada1b40e74aa49b885755f85a621
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 40
+  fontSize: 16
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Bodoni Ornaments
+  fontName: Gothic Extras
   fontNames:
-  - Bodoni Ornaments
-  fallbackFontReferences: []
+  - Gothic Extras
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8251d319c80be410483cf4d1e6127d6b, type: 3}
   customCharacters: 
-  fontRenderingMode: 1
+  fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1

@@ -1,19 +1,20 @@
 fileFormatVersion: 2
-guid: bceb11030e3b942d4b447294cd9d8fea
+guid: dbd72b4f530974dc7a3a031e2430a11d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 40
+  fontSize: 150
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Bodoni Ornaments
+  fontName: DR Lineart
   fontNames:
-  - Bodoni Ornaments
-  fallbackFontReferences: []
+  - DR Lineart
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1de6d249eb9834658959324f77491781, type: 3}
   customCharacters: 
-  fontRenderingMode: 1
+  fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1

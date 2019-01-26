@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: fab6d54066bce46af8e71dc52032ae17
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gothic Extras
+  fontNames:
+  - Gothic Extras
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 982dada1b40e74aa49b885755f85a621, type: 3}
+  - {fileID: 12800000, guid: 8251d319c80be410483cf4d1e6127d6b, type: 3}
+  - {fileID: 12800000, guid: b430cc59dbb7140abacd7834901ade14, type: 3}
+  - {fileID: 12800000, guid: a711ae9d8c7e944698d253ed6e04fc95, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
