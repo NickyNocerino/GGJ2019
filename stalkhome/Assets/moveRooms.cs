@@ -12,10 +12,11 @@ public class moveRooms : MonoBehaviour
     private string trans;
     public GameObject sign;
     public GameObject text;
+    public AudioSource clickSound;
     // Start is called before the first frame update
     void Start()
     {
-        
+        clickSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -56,9 +57,11 @@ public class moveRooms : MonoBehaviour
         transText.GetComponentInChildren<Text>().text = trans;
         if (Input.GetMouseButtonDown(0))
         {
+            
             cam.GetComponent<Transform>().position = newCam.GetComponent<Transform>().position;
             sign.SetActive(false);
             text.SetActive(false);
+            clickSound.Play();
         }
     }
     void OnMouseExit()

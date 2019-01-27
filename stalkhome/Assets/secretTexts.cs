@@ -15,11 +15,13 @@ public class secretTexts : MonoBehaviour
     public Sprite zoomSign;
     public bool speak;
     public GameObject speakBox;
+    public AudioSource clickSound;
     // Start is called before the first frame update
     void Start()
     {
         trans = "";
         transText.SetActive(false);
+        clickSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -82,6 +84,7 @@ public class secretTexts : MonoBehaviour
             {
                 trans += "?";
             }
+            
         }
         print(trans.ToString());
         transText.SetActive(true);
@@ -103,6 +106,7 @@ public class secretTexts : MonoBehaviour
                 speakBox.SetActive(true);
                 speakBox.GetComponentInChildren<secretTexts>().secretText = secretText;
             }
+            clickSound.Play();
         }
     }
     void OnMouseExit()
